@@ -43,8 +43,8 @@ public class TestParticleSystem : MonoBehaviour
             Vector3 randomDirection = Random.insideUnitSphere.normalized;
 
             //set particle color
-            particleRenderer = particle.GetComponent<Renderer>();
-            particleRenderer.material.color = particleColor;
+            //particleRenderer = particle.GetComponent<Renderer>();
+            //particleRenderer.material.color = particleColor;
 
             //set particle velocity
             particleRB = particle.GetComponent<Rigidbody>();
