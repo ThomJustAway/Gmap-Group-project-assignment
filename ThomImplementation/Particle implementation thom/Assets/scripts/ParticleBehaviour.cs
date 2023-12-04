@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class ParticleBehaviour : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
+    public GameObject particleSystem;
+    public int count;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        for(int i = 0; i < count; i++)
+        {
+            Instantiate(particleSystem);
+        }
     }
 }
