@@ -123,402 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &43585982
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &43585983 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 43585982}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &181526930
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &181526931 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 181526930}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &350069719
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &350069720 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 350069719}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &367150475
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &367150476 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 367150475}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &557476807
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &557476808 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 557476807}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &566682256
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &566682257 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 566682256}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,204 +217,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &784909787
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &784909788 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 784909787}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &882541252
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &882541253 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 882541252}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &883536035
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &883536036 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 883536035}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,277 +294,111 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -23.3}
+  m_LocalPosition: {x: 3.57, y: 12.53, z: 0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1028064527
-PrefabInstance:
+--- !u!1 &1158088713
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1028064528 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1028064527}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1083118999
-PrefabInstance:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158088717}
+  - component: {fileID: 1158088716}
+  - component: {fileID: 1158088715}
+  - component: {fileID: 1158088714}
+  m_Layer: 0
+  m_Name: Floor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1158088714
+MeshCollider:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1083119000 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1083118999}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1093327054
-PrefabInstance:
+  m_GameObject: {fileID: 1158088713}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1158088715
+MeshRenderer:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1093327055 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1093327054}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1195822608
-PrefabInstance:
+  m_GameObject: {fileID: 1158088713}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1158088716
+MeshFilter:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1195822609 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1195822608}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158088713}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1158088717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158088713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6042385, y: 6.7, z: 28.612225}
+  m_LocalScale: {x: 4.0848, y: 4.0848, z: 4.0848}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240136250
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,13 +1932,13 @@ ParticleSystem:
     speedRange: {x: 0, y: 1}
     tilesX: 1
     tilesY: 1
-    animationType: 0
+    animationType: 1
     rowIndex: 0
     cycles: 1
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 0}
+    - sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -4057,16 +3297,16 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 1
-    frequency: 0.12
-    damping: 0
-    octaves: 4
-    octaveMultiplier: 0.45
+    frequency: 3.26
+    damping: 1
+    octaves: 3
+    octaveMultiplier: 1
     octaveScale: 4
-    quality: 2
+    quality: 1
     scrollSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 2.96
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5964,211 +5204,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240136250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6042392, y: 10.1, z: 28.612225}
+  m_LocalPosition: {x: 3.6042392, y: 16.2, z: 28.612225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1322789681
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1322789682 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1322789681}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1350375830
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1350375831 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1350375830}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1469926179
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1469926180 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1469926179}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1638411165
 GameObject:
   m_ObjectHideFlags: 0
@@ -6178,6 +5220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1638411166}
+  - component: {fileID: 1638411167}
   m_Layer: 0
   m_Name: ObjectPool
   m_TagString: Untagged
@@ -6196,30 +5239,25 @@ Transform:
   m_LocalPosition: {x: 3.6042385, y: 10.099999, z: 28.612225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1028064528}
-  - {fileID: 557476808}
-  - {fileID: 1350375831}
-  - {fileID: 1751554721}
-  - {fileID: 1832791013}
-  - {fileID: 1195822609}
-  - {fileID: 1083119000}
-  - {fileID: 181526931}
-  - {fileID: 1944790820}
-  - {fileID: 367150476}
-  - {fileID: 43585983}
-  - {fileID: 350069720}
-  - {fileID: 2085836700}
-  - {fileID: 1093327055}
-  - {fileID: 566682257}
-  - {fileID: 784909788}
-  - {fileID: 1469926180}
-  - {fileID: 882541253}
-  - {fileID: 1322789682}
-  - {fileID: 883536036}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1638411167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638411165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedf70d9bc710574c962db76448af9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
+  amountToPool: 100
 --- !u!1 &1671314172
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,14 +5282,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671314172}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9, z: 28}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.4, y: 16, z: 24.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1671314174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6266,273 +5304,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particlePrefab: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
   particleColor: {r: 0.8113208, g: 0.07271269, b: 0.07271269, a: 0}
-  numberOfParticles: 100
+  numberOfParticles: 50
   randomSpeed: 1
   minSpeed: 15.8
   maxSpeed: 32.8
   particleSpeed: 10.6
-  interval: 0.05
---- !u!1001 &1751554720
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1751554721 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1751554720}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1832791012
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1832791013 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1832791012}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1944790819
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &1944790820 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 1944790819}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2085836699
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1638411166}
-    m_Modifications:
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.091347
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0194
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.063625
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_Name
-      value: PC Computer - Shrek Forever After - Shrek@Dancing Twerk Variant (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
---- !u!4 &2085836700 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 339814503016082387, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  m_PrefabInstance: {fileID: 2085836699}
-  m_PrefabAsset: {fileID: 0}
+  interval: 1
+  objectPool: {fileID: 1638411167}
