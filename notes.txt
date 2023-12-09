@@ -6,4 +6,3 @@ implementation
 - Problem 
 - Explore different solution and talks about the pros and cons of it.
 - have 3 problem statement for the theory, implementation, game
-
