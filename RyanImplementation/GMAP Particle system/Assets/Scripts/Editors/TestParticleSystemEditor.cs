@@ -19,6 +19,10 @@ public class TestParticleSystemEditor : Editor
     SerializedProperty particleSpeed;
     SerializedProperty interval;
 
+    SerializedProperty objectPool;
+
+   
+
 
 
     private void OnEnable()
@@ -31,6 +35,7 @@ public class TestParticleSystemEditor : Editor
         interval = serializedObject.FindProperty("interval");
         minSpeed = serializedObject.FindProperty("minSpeed");
         maxSpeed = serializedObject.FindProperty("maxSpeed");
+        objectPool = serializedObject.FindProperty("objectPool");
 
     }
     
@@ -56,6 +61,7 @@ public class TestParticleSystemEditor : Editor
             EditorGUILayout.PropertyField(particleSpeed);
         }
         EditorGUILayout.PropertyField(interval);
+        EditorGUILayout.PropertyField (objectPool);
 
         serializedObject.ApplyModifiedProperties();
     }

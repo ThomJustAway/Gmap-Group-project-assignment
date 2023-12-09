@@ -12,25 +12,31 @@ public class TestParticle : MonoBehaviour
     public float collisionBuffer;
 
     float time;
-    
+
+    private void OnEnable()
+    {
+        time = 0;
+    }
+
+
     private void Update()
     {
         time += Time.fixedDeltaTime;
-        Debug.Log(time);
 
         
         if (time >= lifespan)
         {
-            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
+            
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(time > collisionBuffer)
-        {
-            Destroy(this.gameObject);
-        }
-        
-    }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if(time > collisionBuffer)
+    //    {
+    //        this.gameObject.SetActive(false);
+    //    }
+    //    
+    //}
 }
