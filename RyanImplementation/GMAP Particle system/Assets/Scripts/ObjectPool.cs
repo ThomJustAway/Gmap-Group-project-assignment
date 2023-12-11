@@ -7,9 +7,11 @@ using UnityEngine.Pool;
 public class ObjectPool : MonoBehaviour
 {
     public static ObjectPool SharedInstance;
-    public List<GameObject> pooledObjects;
+   
     public GameObject objectToPool;
     public int amountToPool;
+
+    public Queue<GameObject> objectPool = new Queue<GameObject>();
 
     void Awake()
     {
@@ -18,26 +20,33 @@ public class ObjectPool : MonoBehaviour
 
     void Start()
     {
-        pooledObjects = new List<GameObject>();
-        GameObject tmp;
+
         for (int i = 0; i < amountToPool; i++)
         {
-            tmp = Instantiate(objectToPool);
-            tmp.transform.parent = this.transform;
-            tmp.SetActive(false);
-            pooledObjects.Add(tmp);
+            GameObject obj = Instantiate(objectToPool);
+            obj.transform.parent = this.transform;
+            obj.SetActive(false);
+            objectPool.Enqueue(obj);
+
+           
         }
+
+
     }
 
-    public GameObject GetPooledObject()
+    public GameObject spawnFromObjectPool(Vector3 pos, Quaternion rotation)
     {
-        for (int i = 0; i < amountToPool; i++)
-        {
-            if (!pooledObjects[i].activeInHierarchy)
-            {
-                return pooledObjects[i];
-            }
-        }
-        return null;
+        GameObject objectToSpawn = objectPool.Dequeue();
+
+        objectToSpawn.SetActive(true);
+        objectToSpawn.transform.position = pos;
+        objectToSpawn.transform.rotation = rotation;
+
+        objectPool.Enqueue(objectToSpawn);
+
+        return objectToSpawn;
     }
+
+
+
 }

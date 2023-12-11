@@ -20,18 +20,33 @@ public class TestParticleSystem : MonoBehaviour
     [Range(1,50)]
     public float minSpeed, maxSpeed, particleSpeed;
     public float interval;
+    public bool randomSpawnPosition;
 
     [Header("Object Pooling")]
     public ObjectPool objectPool;
-    
+
+
+
+    public bool start = false;
 
     
-    //for my eyes only  uwu
-    float count;
 
     void Start()
     {
-        StartCoroutine(SpawnParticles());
+        objectPool = ObjectPool.SharedInstance;
+
+
+    }
+
+    private void Update()
+    {
+        if (start)
+        {
+            start = false;
+            StartCoroutine(SpawnParticles());
+        }
+
+       
     }
 
 
@@ -39,47 +54,45 @@ public class TestParticleSystem : MonoBehaviour
     {
         for (int i = 0; i < numberOfParticles; i++)
         {
-            // Instantiate a new particle
-            GameObject particle = objectPool.GetPooledObject();
-            
-            if (particle != null)
+            if (randomSpawnPosition)
             {
-                Debug.Log(i);
-                particle.transform.position = transform.position;
-                particle.transform.rotation = transform.rotation;
+                Vector3 randomPos = GetRandomPosition();
 
-                // Get random particle direction
-                Vector3 randomDirection = Random.insideUnitSphere.normalized;
+                Debug.Log(randomPos);
 
-                
-
-                //set particle color
-                //particleRenderer = particle.GetComponent<Renderer>();
-                //particleRenderer.material.color = particleColor;
-
-                //set particle velocity
-
-                particleRB = particle.GetComponent<Rigidbody>();
-                particleRB.useGravity = true;
-                
-                //if (randomSpeed)
-                //{
-                //    particleRB.velocity = randomDirection * Random.Range(minSpeed, maxSpeed);
-                //}
-                //else
-                //{
-                //
-                //    particleRB.velocity = randomDirection * particleSpeed;
-                //}
-
-                particle.SetActive(true);
-
-                yield return new WaitForSeconds(interval);
+                // enable a new particle
+                GameObject particle = objectPool.spawnFromObjectPool(randomPos, Quaternion.identity);
             }
+
+
+
+            else
+            {
+                GameObject particle = objectPool.spawnFromObjectPool(transform.position, Quaternion.identity);
+            }
+            
+            
+                
+
+            yield return new WaitForSeconds(interval);
+            
             
           
         }
         
+    }
+
+    public Vector3 GetRandomPosition()
+    {
+        //get the random x and z value of the position
+        //Vector2 randomPosXZ = Random.insideUnitCircle * transform.localScale.x;
+
+        Vector3 randomPosition = new Vector3(Random.Range(-transform.localScale.x/2, transform.localScale.x/2), 0f, Random.Range(-transform.localScale.z/2, transform.localScale.z/2))
+            + transform.position;
+
+        
+
+        return randomPosition;
     }
 
 }

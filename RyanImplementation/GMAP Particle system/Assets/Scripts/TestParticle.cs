@@ -13,9 +13,17 @@ public class TestParticle : MonoBehaviour
 
     float time;
 
+    
+
+    private void Start()
+    {
+        
+    }
+
     private void OnEnable()
     {
         time = 0;
+
     }
 
 
@@ -29,6 +37,7 @@ public class TestParticle : MonoBehaviour
             this.gameObject.SetActive(false);
             
         }
+
     }
 
     //private void OnCollisionEnter(Collision collision)

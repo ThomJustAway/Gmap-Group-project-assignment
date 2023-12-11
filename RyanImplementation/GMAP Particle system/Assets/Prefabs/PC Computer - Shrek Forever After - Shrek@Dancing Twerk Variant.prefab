@@ -128,5 +128,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c84ba9d884c0874197a3489322f52e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifespan: 20
+  lifespan: 100
   collisionBuffer: 3
