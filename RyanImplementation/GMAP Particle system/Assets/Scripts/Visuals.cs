@@ -11,6 +11,7 @@ public class Visuals : MonoBehaviour
     {
         if (displayOutline)
         {
+            
             Gizmos.color = colour;
             Gizmos.DrawWireCube(transform.position, transform.localScale);
         }

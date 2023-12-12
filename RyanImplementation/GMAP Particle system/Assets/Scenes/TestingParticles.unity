@@ -5255,8 +5255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fedf70d9bc710574c962db76448af9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToPool: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  amountToPool: 25
 --- !u!1 &1671314172
 GameObject:
   m_ObjectHideFlags: 0
@@ -5283,8 +5281,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671314172}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.64, y: 28.3, z: 33.1}
-  m_LocalScale: {x: 70.954666, y: 70.954666, z: 70.954666}
+  m_LocalPosition: {x: 1, y: 7.3, z: -32.7}
+  m_LocalScale: {x: 60.836304, y: 23.370255, z: 57.87136}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5302,16 +5300,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5331a78c5ebfa3c48bc0e3a87a90a02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particlePrefab: {fileID: 4431659277206871015, guid: ea575cac6bae65443bb9e24004e1458f, type: 3}
-  particleColor: {r: 0.8113208, g: 0.07271269, b: 0.07271269, a: 0}
-  numberOfParticles: 1000
-  randomSpeed: 1
-  minSpeed: 15.8
-  maxSpeed: 32.8
-  particleSpeed: 10.6
-  interval: 0.05
+  prefab: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
+  lifespan: 100
+  numberOfParticles: 1000000
+  interval: 0.1
   randomSpawnPosition: 1
   objectPool: {fileID: 1638411167}
+  amountToPool: 150
+  moveForward: 1
+  moveSpeed: 380
   start: 1
 --- !u!114 &1671314175
 MonoBehaviour:

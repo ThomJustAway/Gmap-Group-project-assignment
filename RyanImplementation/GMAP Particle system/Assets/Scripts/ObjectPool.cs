@@ -8,8 +8,8 @@ public class ObjectPool : MonoBehaviour
 {
     public static ObjectPool SharedInstance;
    
-    public GameObject objectToPool;
-    public int amountToPool;
+    private GameObject objectToPool;
+    private int amountToPool;
 
     public Queue<GameObject> objectPool = new Queue<GameObject>();
 
@@ -38,6 +38,12 @@ public class ObjectPool : MonoBehaviour
     {
         GameObject objectToSpawn = objectPool.Dequeue();
 
+        if (objectToSpawn.activeInHierarchy)
+        {
+            //turn it off before activating again
+            objectToSpawn.SetActive(false);
+        }
+
         objectToSpawn.SetActive(true);
         objectToSpawn.transform.position = pos;
         objectToSpawn.transform.rotation = rotation;
@@ -48,5 +54,34 @@ public class ObjectPool : MonoBehaviour
     }
 
 
+
+    #region Getters and Setters
+    public GameObject ObjectToPool
+    {
+        get
+        {
+            return objectToPool;
+        }
+
+        set
+        {
+            objectToPool = value;
+        }
+    }
+    public int AmountToPool
+    {
+        get
+        {
+            return amountToPool;
+        }
+
+        set
+        {
+            amountToPool = value;
+        }
+    }
+
+
+    #endregion
 
 }

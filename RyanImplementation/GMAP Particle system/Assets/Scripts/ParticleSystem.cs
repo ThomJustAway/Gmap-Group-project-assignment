@@ -3,40 +3,51 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class TestParticleSystem : MonoBehaviour
+public class ParticleSystem : MonoBehaviour
 {
     //settings for the particle object itself
     [Header("Particle settings")]
-    public GameObject particlePrefab;
-    public Color particleColor;
-    Rigidbody particleRB;
-    Renderer particleRenderer;
-    [Space(10)]
+    public GameObject prefab;
+    [Range(1, 100000)]
+    public float lifespan;
+
+
+
 
     //settings for spawning the particles
     [Header("Spawn Settings")]
     public int numberOfParticles = 100;
-    public bool randomSpeed;
-    [Range(1,50)]
-    public float minSpeed, maxSpeed, particleSpeed;
     public float interval;
     public bool randomSpawnPosition;
 
+
+
+
     [Header("Object Pooling")]
     public ObjectPool objectPool;
+    public int amountToPool;
+
+
+
+
+
+    [Header("Move to target")]
+    public bool moveForward;
+    [Range(1, 500)]
+    public float moveSpeed;
+
 
 
 
     public bool start = false;
 
-    
-
-    void Start()
+    private void Awake()
     {
         objectPool = ObjectPool.SharedInstance;
-
-
+        SetObjectPoolVariables();
     }
+
+
 
     private void Update()
     {
@@ -61,14 +72,15 @@ public class TestParticleSystem : MonoBehaviour
                 Debug.Log(randomPos);
 
                 // enable a new particle
-                GameObject particle = objectPool.spawnFromObjectPool(randomPos, Quaternion.identity);
+                GameObject particle = objectPool.spawnFromObjectPool(randomPos, transform.rotation);
+                SetParticleVariables(particle);
             }
 
 
 
             else
             {
-                GameObject particle = objectPool.spawnFromObjectPool(transform.position, Quaternion.identity);
+                GameObject particle = objectPool.spawnFromObjectPool(transform.position, transform.rotation);
             }
             
             
@@ -93,6 +105,22 @@ public class TestParticleSystem : MonoBehaviour
         
 
         return randomPosition;
+    }
+
+
+    public void SetParticleVariables(GameObject particle)
+    {
+        Particle p = particle.GetComponent<Particle>();
+        p.Lifespan = lifespan;
+        p.MoveSpeed = moveSpeed;
+        p.MoveForward = moveForward;
+    }
+
+
+    public void SetObjectPoolVariables()
+    {
+        objectPool.AmountToPool = amountToPool;
+        objectPool.ObjectToPool = prefab;
     }
 
 }
