@@ -24,9 +24,9 @@ public class ParticleSystem : MonoBehaviour
 
 
     [Header("Object Pooling")]
-    public ObjectPool objectPool;
     public int amountToPool;
-
+    public ObjectPool objectPool;
+    
 
 
 
@@ -108,6 +108,7 @@ public class ParticleSystem : MonoBehaviour
     }
 
 
+    #region Set Variables
     public void SetParticleVariables(GameObject particle)
     {
         Particle p = particle.GetComponent<Particle>();
@@ -122,5 +123,7 @@ public class ParticleSystem : MonoBehaviour
         objectPool.AmountToPool = amountToPool;
         objectPool.ObjectToPool = prefab;
     }
+
+    #endregion
 
 }

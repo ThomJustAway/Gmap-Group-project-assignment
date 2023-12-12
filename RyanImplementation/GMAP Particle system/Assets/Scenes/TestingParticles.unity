@@ -354,7 +354,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -397,7 +397,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240136250
 GameObject:
@@ -5209,7 +5209,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1638411165
 GameObject:
@@ -5286,7 +5286,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1671314174
 MonoBehaviour:
@@ -5301,14 +5301,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1151958134575395177, guid: c77eb286f8f1350419b75b9fdd7c601f, type: 3}
-  lifespan: 100
-  numberOfParticles: 1000000
+  lifespan: 200
+  numberOfParticles: 50
   interval: 0.1
   randomSpawnPosition: 1
+  amountToPool: 100
   objectPool: {fileID: 1638411167}
-  amountToPool: 150
   moveForward: 1
-  moveSpeed: 380
+  moveSpeed: 351
   start: 1
 --- !u!114 &1671314175
 MonoBehaviour:
@@ -5322,5 +5322,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d1895e92e704840bd8daf0fd6ad1c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colour: {r: 0, g: 1, b: 0, a: 1}
+  colour: {r: 0.32685208, g: 1, b: 0, a: 1}
   displayOutline: 1

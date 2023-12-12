@@ -32,7 +32,7 @@ public class Particle : MonoBehaviour
 
     private void Update()
     {
-        time += Time.deltaTime;
+        time += Time.fixedDeltaTime;
        
 
 
