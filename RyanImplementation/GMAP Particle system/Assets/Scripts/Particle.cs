@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Particle : MonoBehaviour
 {
-    
+    //variables that will be edited in particle spawner
     private float _lifespan;
 
     private float _moveSpeed;
@@ -14,14 +14,7 @@ public class Particle : MonoBehaviour
 
     float time;
 
-    Rigidbody rb;
 
-
-
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
 
     private void OnEnable()
     {
@@ -67,21 +60,11 @@ public class Particle : MonoBehaviour
     private void Move()
     {
         Vector3 forward = transform.forward;
-        rb.velocity += forward * _moveSpeed * Time.fixedDeltaTime;
+        transform.position += (forward * _moveSpeed * Time.fixedDeltaTime);
 
        
-    }
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    } 
+  
     
     
     

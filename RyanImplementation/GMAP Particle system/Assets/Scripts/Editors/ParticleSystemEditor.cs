@@ -26,6 +26,8 @@ public class ParticleSystemEditor : Editor
 
     SerializedProperty prefab;
     SerializedProperty amountToPool;
+
+    SerializedProperty objectPoolCheck;
     
 
 
@@ -48,6 +50,8 @@ public class ParticleSystemEditor : Editor
         moveSpeed = serializedObject.FindProperty("moveSpeed");
         prefab = serializedObject.FindProperty("prefab");
         amountToPool = serializedObject.FindProperty("amountToPool");
+
+        objectPoolCheck = serializedObject.FindProperty("objectPoolCheck");
 
 
     }
@@ -74,6 +78,8 @@ public class ParticleSystemEditor : Editor
 
         //Object pooling settings layout
         EditorGUILayout.PropertyField(amountToPool);
+        EditorGUILayout.PropertyField(objectPoolCheck);
+
         EditorGUILayout.Space(10);
 
 

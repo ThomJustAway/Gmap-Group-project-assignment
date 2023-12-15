@@ -26,6 +26,7 @@ public class ParticleSystem : MonoBehaviour
     [Header("Object Pooling")]
     public int amountToPool;
     public ObjectPool objectPool;
+    public bool objectPoolCheck;
     
 
 
@@ -63,34 +64,71 @@ public class ParticleSystem : MonoBehaviour
 
     IEnumerator SpawnParticles()
     {
-        for (int i = 0; i < numberOfParticles; i++)
+        if (objectPoolCheck)
         {
-            if (randomSpawnPosition)
+            for (int i = 0; i < numberOfParticles; i++)
             {
-                Vector3 randomPos = GetRandomPosition();
+                if (randomSpawnPosition)
+                {
+                    Vector3 randomPos = GetRandomPosition();
 
-                Debug.Log(randomPos);
+                    Debug.Log(randomPos);
 
-                // enable a new particle
-                GameObject particle = objectPool.spawnFromObjectPool(randomPos, transform.rotation);
-                SetParticleVariables(particle);
+                    // enable a new particle
+                    GameObject particle = objectPool.spawnFromObjectPool(randomPos, transform.rotation);
+                    SetParticleVariables(particle);
+                }
+
+
+
+                else
+                {
+                    GameObject particle = objectPool.spawnFromObjectPool(transform.position, transform.rotation);
+                    SetParticleVariables(particle);
+                }
+
+
+
+
+                yield return new WaitForSeconds(interval);
+
+
+
             }
-
-
-
-            else
-            {
-                GameObject particle = objectPool.spawnFromObjectPool(transform.position, transform.rotation);
-            }
-            
-            
-                
-
-            yield return new WaitForSeconds(interval);
-            
-            
-          
         }
+        else
+        {
+            for (int i = 0; i < numberOfParticles; i++)
+            {
+                if (randomSpawnPosition)
+                {
+                    Vector3 randomPos = GetRandomPosition();
+
+                    Debug.Log(randomPos);
+
+                    // enable a new particle
+                    GameObject particle = SpawnObjects(randomPos);
+                    SetParticleVariables(particle);
+                }
+
+
+
+                else
+                {
+                    GameObject particle = SpawnObjects(transform.position);
+                    SetParticleVariables(particle);
+                }
+
+
+
+
+                yield return new WaitForSeconds(interval);
+
+
+
+            }
+        }
+        
         
     }
 
@@ -99,12 +137,19 @@ public class ParticleSystem : MonoBehaviour
         //get the random x and z value of the position
         //Vector2 randomPosXZ = Random.insideUnitCircle * transform.localScale.x;
 
-        Vector3 randomPosition = new Vector3(Random.Range(-transform.localScale.x/2, transform.localScale.x/2), 0f, Random.Range(-transform.localScale.z/2, transform.localScale.z/2))
-            + transform.position;
+        Vector3 randomPosition = new Vector3(Random.Range(-transform.localScale.x/2, transform.localScale.x/2), 0f, Random.Range(-transform.localScale.z/2, transform.localScale.z/2)) + transform.position;
 
         
 
         return randomPosition;
+    }
+
+    public GameObject SpawnObjects(Vector3 pos)
+    {
+        GameObject particle = Instantiate(prefab);
+        particle.transform.position = pos;
+        particle.transform.rotation = transform.rotation;
+        return particle;
     }
 
 
