@@ -57,10 +57,10 @@ MonoBehaviour:
   - title: add wind using noise
     position:
       serializedVersion: 2
-      x: 1506
-      y: 1998
+      x: 1899
+      y: 2158
       width: 1324
-      height: 765
+      height: 766
     contents:
     - model: {fileID: 8926484042661614998}
       id: 0
@@ -125,21 +125,51 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: 1366
-      y: -337
-      width: 1115
-      height: 301
+      y: -343
+      width: 570
+      height: 302
     contents: "The implementation is almost similar to the terrain Grass patch. only
       difference is that this is much more \ninefficient compared to the terrain
-      grass patch. "
+      grass patch. You can some of the mistakes I made over here. you can see mistakes
+      I made and some of the initial versions of the grass before making the final
+      produce (grass patch terrain)"
+    theme: Classic
+    textSize: Small
+  - title: Mistake here
+    position:
+      serializedVersion: 2
+      x: 1277
+      y: 607
+      width: 458
+      height: 256
+    contents: "You can see this in new grid graph and here how I made a fatal mistake
+      that reduce the efficency of the grass. Over here, I make the grass particles
+      from the randomise position to spawn more particles. The thought here was that
+      the particles here are meant to serve as a structure for the grass strip. \n\nThis
+      is another way of doing it but it is not efficiency since it waste memory in
+      the memory buffer which makes lesser grass as a result. The more optimise version
+      is in grass patch terrain"
+    theme: Classic
+    textSize: Small
+  - title: Setting up the structure
+    position:
+      serializedVersion: 2
+      x: 1223
+      y: 1362
+      width: 458
+      height: 111
+    contents: You can see here how I initially set up the structure which was to
+      shoot up particles on the top. this works but this makes it creating more grass
+      harder as a result.
     theme: Classic
     textSize: Small
   categories: []
   uiBounds:
     serializedVersion: 2
     x: 66
-    y: -337
+    y: -343
     width: 3754
-    height: 3873
+    height: 3879
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,7 +180,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: Grass patch effect
+  m_Name: Grass patch perlin
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -282,7 +312,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Grass patch effect
+  m_Name: Grass patch perlin
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -775,7 +805,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614728}
-  m_UIPosition: {x: 742, y: 981}
+  m_UIPosition: {x: 755, y: 827}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -5024,7 +5054,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1762, y: 2626}
+  m_UIPosition: {x: 2156, y: 2786}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -5083,7 +5113,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1998, y: 2525}
+  m_UIPosition: {x: 2392, y: 2685}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5211,7 +5241,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2454, y: 2058}
+  m_UIPosition: {x: 2848, y: 2218}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5789,7 +5819,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2294, y: 2521}
+  m_UIPosition: {x: 2688, y: 2681}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -5884,7 +5914,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1859, y: 2201}
+  m_UIPosition: {x: 2253, y: 2361}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -6045,7 +6075,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2134, y: 2239}
+  m_UIPosition: {x: 2528, y: 2399}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6351,7 +6381,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1619, y: 2334}
+  m_UIPosition: {x: 2013, y: 2494}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -6408,7 +6438,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1843, y: 2374}
+  m_UIPosition: {x: 2237, y: 2534}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -6475,7 +6505,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1531, y: 2451}
+  m_UIPosition: {x: 1925, y: 2611}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
