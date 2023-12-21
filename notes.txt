@@ -1,8 +1,0 @@
-- different problem:
-- partical system dont instantiate objects
-- presentation cant use unity project
-
-implementation
-- Problem 
-- Explore different solution and talks about the pros and cons of it.
-- have 3 problem statement for the theory, implementation, game
